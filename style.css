@@ -2,23 +2,4 @@ body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
 }
 
-.reloj-container{
-    display: flex;
-    justify-content: center;
-}
-
-.reloj {
-    width: 150px; /* Ajusta el tamaño del reloj */
-    animation: rotarReloj 5s linear infinite;
-}
-
-@keyframes rotarReloj {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
 
