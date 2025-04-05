@@ -7,23 +7,21 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gradient-to-b from-blue-100 to-blue-200 flex justify-center items-center min-h-screen">
-    <div class="invitacion bg-white p-8 rounded-3xl shadow-2xl text-center max-w-xl w-full transition-all duration-500 hover:scale-105">
-        <h1 class="text-4xl text-blue-400 font-bold mb-6 transition-colors duration-300 hover:text-blue-600">¡Ven a mi fiesta de Cinnamoroll!</h1>
-        <img src="cinnamoroll-cumpleaños.jpg" alt="Cinnamoroll de cumpleaños" class="rounded-2xl mb-8 w-full transition-transform duration-300 hover:scale-105">
-        <p class="text-lg mb-4">¡Hola a todos!</p>
-        <p class="text-lg mb-4">Los invito a mi fiesta de cumpleaños número 9 con temática de Cinnamoroll. ¡Prepárense para un día lleno de ternura y diversión!</p>
-        <div class="detalles bg-blue-100 p-6 rounded-2xl mb-8">
-            <p class="mb-2"><strong class="text-blue-500">Fecha:</strong> Sábado 19 de abril de 2025</p>
-            <p class="mb-2"><strong class="text-blue-500">Hora:</strong> 4:00 PM</p>
-            <p class="mb-2"><strong class="text-blue-500">Lugar:</strong> [Lugar del cumpleaños]</p>
-            <p><strong class="text-blue-500">Confirma tu asistencia a:</strong> [Número de teléfono o correo electrónico]</p>
+<body class="bg-[url('https://source.unsplash.com/1600x900/?pastel,clouds')] bg-cover bg-center flex justify-center items-center min-h-screen">
+    <div class="bg-white p-6 rounded-3xl shadow-2xl text-center max-w-xl w-full mx-4">
+        <div class="text-4xl font-bold text-blue-400 mb-4 animate-bounce">¡Fiesta de Cinnamoroll!</div>
+        <img src="cinnamoroll-cumpleaños.png" alt="Cinnamoroll de cumpleaños" class="w-48 mx-auto mb-6 animate-pulse">
+        <p class="text-lg mb-3">¡Acompáñame a celebrar mi cumpleaños número 9!</p>
+        <div class="detalles bg-blue-100 p-4 rounded-2xl mb-6">
+            <p class="mb-1"><strong class="text-blue-500">Fecha:</strong> Sábado 19 de abril de 2025</p>
+            <p class="mb-1"><strong class="text-blue-500">Hora:</strong> 4:00 PM</p>
+            <p class="mb-1"><strong class="text-blue-500">Lugar:</strong> [Lugar del cumpleaños]</p>
+            <p><strong class="text-blue-500">Confirma:</strong> [Número/Correo]</p>
         </div>
-        <div class="reloj-container">
-            <img src="reloj-cinnamoroll.png" alt="Reloj de Cinnamoroll" class="reloj">
-        </div>
-        <p class="mt-6 text-lg">¡No se lo pierdan!</p>
+        <div id="countdown" class="text-xl font-semibold text-red-500 mb-6"></div>
+        <p class="text-lg">¡No te lo pierdas!</p>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
 
